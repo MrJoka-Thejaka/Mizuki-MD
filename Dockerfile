@@ -1,4 +1,4 @@
-FROM mrjoka/mizuki:mforce
+FROM alpine:latest
 
 COPY ./  /root/QueenMizuki
 WORKDIR /root/QueenMizuki
