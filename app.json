@@ -1,0 +1,44 @@
+{
+    "name": "Mizuki MD",
+    "description": "Mizuki MD  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://i.ibb.co/pxNPcr1/On-Paste-20220704-231253.png",
+    "keywords": ["whatsapp", "userbot", "mizuki", "md", "bot", "api", "ai"],
+    "repository": "https://github.com/MrJoka-Thejaka/Mizuki-MD",
+    "website":   "https://mizuki.cf/",
+    "success_url": "https://mizuki.cf/",
+    "stack": "container",
+    "env": {"MIZUKI_SESSION": {
+			"description": "Qr කේතය scan කළ පසුව ලැබෙන කේතය.",
+			"required": true
+		},
+		"HEROKU_APP_NAME": {
+			"description": "අර උබ උඩ දුන්නු Heroku app name එක දාපන්",
+			"required": false
+		},
+		"HEROKU_API_KEY": {
+			"description": "https://dashboard.heroku.com/account එකට ගිහින් යටටම scroll කරන්න. API Key කියල ඇති, reveal කියන button එක ඔබල එන එක කොපි කරල මෙතෙන්ට දාපන්",
+			"required": true
+		},
+	        "ANTILINK": {
+			"description": "ගෲප් එකට කවුරු හරි WhatsBotapp Group Link එකක් දැම්මොත් එයාව Mizuki Remove කරනව",
+			"required": false,
+			"value": "false"
+		},
+	        "INBOX_BLOCK": {
+			"description": "Inbox කවුරු හරි මැසේජ් එකක් දැම්මොත් එයාව Mizuki Block කරනව",
+			"required": false,
+			"value": "false"
+		},
+	        "INBOX_BLOCK_MSG": {
+			"description": "Inbox Block කරද්දි ඒ Block කරන කෙනාට යවන්න ඕන මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		}
+     },        
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
