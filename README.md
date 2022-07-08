@@ -51,7 +51,7 @@
 
 ### පහළ තිබෙන "Deploy Now" නම් බටනය click කර Mizuki-MD deploy කරගත හැක.
 
-[![Website](https://ph-files.imgix.net/6cc64c57-db03-4258-a1b1-5c7cc291d502.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=64&h=64&fit=crop&frame=1&dpr=1)](https://heroku.com/deploy?template=https://github.com/MrJoka-Thejaka/Mizuki)
+[![Website](https://ph-files.imgix.net/6cc64c57-db03-4258-a1b1-5c7cc291d502.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=64&h=64&fit=crop&frame=1&dpr=1)](https://heroku.com/deploy?template=https://github.com/MrJoka-Thejaka/Mizuki-MD)
 
 
 ---------------------------------   
