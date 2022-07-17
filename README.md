@@ -8,7 +8,7 @@
 <p align="center">
     Project of 👸💬 Mizuki - Feel Free to stay offline. Mizuki will do her work
     <br>
-       | <a href="https://chat.whatsapp.com/D3BXcWDQdLs5V2JNIgl1By">Public Group</a> |
+       | <a href="https://chat.whatsapp.com/H5ukhIaF2Jk3KMfmrQgPb3">Public Group</a> |
         <a href="https://Wa.me/+94715343050">‍Mr.joka Whatsapp </a> |
         
     < 👸💬 Feel Free to Stay Offline>
