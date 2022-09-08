@@ -17,7 +17,7 @@
 
 ### Get Mizuki Session From Replit
 
-<div align="left"><a href="https://replit.com/@Thejaka/Mizuki-MD-430"><img src="https://telegra.ph/file/acfb34356dab944c61d2d.png" width="150" ></a></div>
+<div align="left"><a href="https://replit.com/@Thejaka/Mizuki-MD"><img src="https://telegra.ph/file/acfb34356dab944c61d2d.png" width="150" ></a></div>
 
 ### Deploy On Heroku
 
