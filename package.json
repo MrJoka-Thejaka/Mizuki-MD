@@ -1,0 +1,29 @@
+{
+  "name": "QueenMizuki",
+  "version": "1.0.0",
+  "description": "QueenMizuki an user bot for whatsapp",
+  "main": "/QueenMizuki/bot.js",
+  "scripts": {
+    "start": "supervisor -s bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrJoka-Thejaka/Mizuki-MD.git"
+  },
+  "keywords": [
+    "Mizuki",
+    "Mizuki MD",
+    "Multi Device"
+  ],
+  "author": "Mr.Joka",
+  "developer": "Mr.Joka",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/MrJoka-Thejaka/Mizuki-MD/issues"
+  },
+  "homepage": "https://mizuki.cf",
+  "dependencies": {
+
+    "asynckit": "^0.4.0"
+}
+}

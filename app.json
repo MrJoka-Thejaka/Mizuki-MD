@@ -1,0 +1,83 @@
+{
+    "name": "Mizuki MD",
+    "description": "Mizuki MD  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://i.ibb.co/pxNPcr1/On-Paste-20220704-231253.png",
+    "keywords": ["whatsapp", "userbot", "mizuki", "md", "bot"],
+    "repository": "https://github.com/MrJoka-Thejaka/Mizuki-MD",
+    "website":   "https://mizuki.cf/",
+    "success_url": "https://mizuki.cf/",
+    "stack": "container",
+    "env": {"MIZUKI_SESSION": {
+			"description": "Qr කේතය scan කළ පසුව ලැබෙන කේතය.",
+			"required": true
+		},
+		"HEROKU_APP_NAME": {
+			"description": "අර උබ උඩ දුන්නු Heroku app name එක දාපන්",
+			"required": true
+		},
+		"HEROKU_API_KEY": {
+			"description": "https://dashboard.heroku.com/account එකට ගිහින් යටටම scroll කරන්න. API Key කියල ඇති, reveal කියන button එක ඔබල එන එක කොපි කරල මෙතෙන්ට දාන්න.",
+			"required": true
+		},
+	        "ANTILINK": {
+			"description": "ගෲප් එකට මොකෙක් හරි Whatsapp Group Link එකක් දැම්මොත් ඌව Mizuki Remove කරනව",
+			"required": false,
+			"value": "false"
+		},
+	        "ANTIBOT": {
+			"description": "වෙන බොට් කෙනෙක් ගෲප් එකට මොකක් හරි Response දුන්නොත් ඒ බොටාව Mizuki Remove කරනව",
+			"required": false,
+			"value": "false"
+		},
+	        "AUTO_REACT": {
+			"description": "බොටාගෙන් Messages වලට Reactions ඕනනම් 'true' එපානම් 'false'",
+			"required": false,
+			"value": "true"
+		},
+	        "ONLY_GROUP": {
+			"description": "Mizuki ගෲප්වල විතරක් වැඩ කරන්න ඕනනම් 'true' ඉන්බොක්ස්නුත් වැඩ කරන්න ඕනනම් 'false'",
+			"required": false,
+			"value": "false"
+		},
+	        "ANTI212": {
+			"description": "වද දෙන +212 හෙන් පටන් ගන්න නම්බර් තියෙන උන්ව Block කරන්න ඕන්නම් 'true' එපානම් 'false'",
+			"required": false,
+			"value": "true"
+		},
+	        "ALIVE_MESSAGE": {
+			"description": "උබට ඕන Alive Message එකක්",
+			"required": false,
+			"value": "default"
+		},
+	        "ALIVE_LOGO": {
+			"description": "උබට ඕන Alive Logo එකක් ( Direct Links Required )",
+			"required": false,
+			"value": "https://i.ibb.co/pxNPcr1/On-Paste-20220704-231253.png"
+		},
+		    "SUDO": {
+			"description": "උබට බොටාව වෙන නම්බරේකින් කන්ට්‍රෝල් කරන්න ඕන්නම් දාපන්(ඇඩ්මින් කමාන්ඩ්ස්) Ex :- 94xxxxxxxxx,0",
+			"required": false
+		},
+	        "INBOX_BLOCK": {
+			"description": "Inbox මොකෙක් හරි මැසේජ් එකක් දැම්මොත් ඌව Mizuki Block කරනව",
+			"required": false,
+			"value": "false"
+		},
+	        "INBOX_BLOCK_MSG": {
+			"description": "Inbox Block කරද්දි ඒ Block කරන පොරට යවන්න ඕන මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"WORK_TYPE": {
+		"description": "Mizuki Private ද Public ද ?",
+		"required": false,
+		"value": "public"
+	}
+     },        
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
