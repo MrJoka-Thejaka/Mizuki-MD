@@ -19,6 +19,10 @@
 
 <div align="left"><a href="https://replit.com/@Thejaka/Mizuki-MD"><img src="https://telegra.ph/file/acfb34356dab944c61d2d.png" width="150" ></a></div>
 
+### Deploy On Railway
+
+<div align="left"><a href="https://railway.app/new/template/hkXPxv?referralCode=DSRGp3"><img src="https://railway.app/button.svg" width="150" ></a></div>
+
 ### Deploy On Heroku
 
 <div align="left"><a href="https://dashboard.heroku.com/new?template=https://github.com/MrJoka-Thejaka/Mizuki-MD.git"><img src="https://telegra.ph/file/a5e97ba6f8b4b217ef02e.png" width="150" ></a></div>
